@@ -1,4 +1,4 @@
-package com.dev.desafiobackenditau;
+package com.dev.desafiobackenditau.estatistica;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

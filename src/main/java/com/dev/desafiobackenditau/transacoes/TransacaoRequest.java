@@ -1,4 +1,4 @@
-package com.dev.desafiobackenditau;
+package com.dev.desafiobackenditau.transacoes;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;

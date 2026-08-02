@@ -1,11 +1,10 @@
-package com.dev.desafiobackenditau;
+package com.dev.desafiobackenditau.transacoes;
 
 import org.jspecify.annotations.NonNull;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
-import java.util.Objects;
 
 @Service
 public class TransacaoService {
