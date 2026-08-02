@@ -1,4 +1,8 @@
 package com.dev.desafiobackenditau;
 
-public record TransacaoRequest() {
+import java.math.BigDecimal;
+import java.time.OffsetDateTime;
+
+public record TransacaoRequest(BigDecimal valor, OffsetDateTime dataHora) {
+
 }
