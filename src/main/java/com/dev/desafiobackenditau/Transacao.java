@@ -1,11 +1,19 @@
-package com.dev.desafiobackenditau.dtos;
+package com.dev.desafiobackenditau;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Transacao {
 
     private BigDecimal valor;
-    OffsetDateTime dataHora;
+    private OffsetDateTime dataHora;
 
 }
+
