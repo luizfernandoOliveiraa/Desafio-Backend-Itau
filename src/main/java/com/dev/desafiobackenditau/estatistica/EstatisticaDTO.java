@@ -5,8 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class EstatisticaDTO {
 
     private Long count;
@@ -15,5 +13,11 @@ public class EstatisticaDTO {
     private Double min;
     private Double max;
 
-
+    public EstatisticaDTO( Long count, Double sum, Double avg, Double min, Double max) {
+        this.count = count;
+        this.sum = sum;
+        this.avg = avg;
+        this.min = min;
+        this.max = max;
+    }
 }
